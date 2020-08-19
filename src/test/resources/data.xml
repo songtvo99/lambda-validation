@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<RequestTicketForm>
+    <section>
+        <Tile>SECTION_TITLE</Tile>
+        <Span>col-24</Span>
+        <Order>1</Order>
+        <hasExpanded>yes</hasExpanded>
+        <Fields>
+            <field>
+                <name>name</name>
+                <order>1</order>
+                <span>col-12</span>
+                <label>REQUEST_TICKET_NAME</label>
+            </field>
+            <field>
+                <name>name</name>
+                <order>1</order>
+                <span>col-12</span>
+                <label>REQUEST_TICKET_NAME</label>
+            </field>
+        </Fields>
+    </section>
+    <section>
+        <Tile>SECTION_TITLE</Tile>
+        <Span>col-24</Span>
+        <Order>1</Order>
+        <hasExpanded>yes</hasExpanded>
+        <Fields>
+            <field array="true">
+                <name>name</name>
+                <order>1</order>
+                <span>col-12</span>
+                <label>REQUEST_TICKET_NAME</label>
+            </field>
+        </Fields>
+    </section>
+</RequestTicketForm>
