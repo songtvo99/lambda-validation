@@ -13,18 +13,11 @@ public class ValidatorResultImpl implements ValidatorResult {
         errorMessages = new ArrayList<>();
     }
 
-    public ValidatorResultImpl(List<ErrorMessage> errorMessages) {
-        this.errorMessages = errorMessages;
-    }
-
     public boolean isValid() {
-        return errorMessages == null || errorMessages.size() == 0;
+        return errorMessages.size() == 0;
     }
 
     public List<ErrorMessage> getErrorMessages() {
-        if (errorMessages == null) {
-            return new ArrayList<>();
-        }
         return errorMessages;
     }
 }
